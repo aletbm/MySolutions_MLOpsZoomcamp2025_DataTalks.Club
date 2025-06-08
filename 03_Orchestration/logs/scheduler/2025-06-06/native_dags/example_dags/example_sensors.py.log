@@ -1,0 +1,25 @@
+[2025-06-05T23:25:52.228-0300] {processor.py:157} INFO - Started process (PID=36573) to work on /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-05T23:25:52.228-0300] {processor.py:826} INFO - Processing file /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-06-05T23:25:52.229-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:25:52.228-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-05T23:25:52.234-0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-05T23:25:52.448-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:25:52.448-0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_sensors
+[2025-06-05T23:25:52.515-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:25:52.515-0300] {manager.py:504} INFO - Created Permission View: can read on DAG:example_sensors
+[2025-06-05T23:25:52.582-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:25:52.582-0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_sensors
+[2025-06-05T23:25:52.596-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:25:52.596-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-05T23:25:52.606-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:25:52.605-0300] {dag.py:2763} INFO - Creating ORM DAG for example_sensors
+[2025-06-05T23:25:52.612-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:25:52.612-0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-06-05T23:25:52.758-0300] {processor.py:179} INFO - Processing /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.532 seconds
+[2025-06-05T23:27:02.904-0300] {processor.py:157} INFO - Started process (PID=36771) to work on /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-05T23:27:02.919-0300] {processor.py:826} INFO - Processing file /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-06-05T23:27:02.921-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:27:02.920-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-05T23:27:02.936-0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-05T23:27:02.945-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:27:02.945-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-05T23:27:02.954-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:27:02.954-0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-06-05T23:27:03.052-0300] {processor.py:179} INFO - Processing /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.150 seconds
+[2025-06-05T23:28:04.568-0300] {processor.py:157} INFO - Started process (PID=37162) to work on /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-05T23:28:04.569-0300] {processor.py:826} INFO - Processing file /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-06-05T23:28:04.569-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:28:04.569-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-05T23:28:04.574-0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-06-05T23:28:04.590-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:28:04.590-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-05T23:28:04.603-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:28:04.602-0300] {dag.py:3504} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-06-05T23:28:04.690-0300] {processor.py:179} INFO - Processing /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.125 seconds

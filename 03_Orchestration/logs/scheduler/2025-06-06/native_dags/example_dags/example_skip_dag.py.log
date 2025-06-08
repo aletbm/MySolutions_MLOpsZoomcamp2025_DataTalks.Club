@@ -1,0 +1,25 @@
+[2025-06-05T23:25:59.192-0300] {processor.py:157} INFO - Started process (PID=36657) to work on /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-05T23:25:59.193-0300] {processor.py:826} INFO - Processing file /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-06-05T23:25:59.195-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:25:59.194-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-05T23:25:59.205-0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-05T23:25:59.459-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:25:59.458-0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2025-06-05T23:25:59.567-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:25:59.566-0300] {manager.py:504} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2025-06-05T23:25:59.691-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:25:59.691-0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2025-06-05T23:25:59.705-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:25:59.704-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-05T23:25:59.713-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:25:59.712-0300] {dag.py:2763} INFO - Creating ORM DAG for example_skip_dag
+[2025-06-05T23:25:59.718-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:25:59.718-0300] {dag.py:3504} INFO - Setting next_dagrun for example_skip_dag to 2025-06-05T02:25:59.718376+00:00, run_after=2025-06-06T02:25:59.718376+00:00
+[2025-06-05T23:25:59.858-0300] {processor.py:179} INFO - Processing /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.671 seconds
+[2025-06-05T23:27:07.086-0300] {processor.py:157} INFO - Started process (PID=36777) to work on /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-05T23:27:07.092-0300] {processor.py:826} INFO - Processing file /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-06-05T23:27:07.093-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:27:07.093-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-05T23:27:07.106-0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-05T23:27:07.115-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:27:07.115-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-05T23:27:07.125-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:27:07.125-0300] {dag.py:3504} INFO - Setting next_dagrun for example_skip_dag to 2025-06-05T02:27:07.125713+00:00, run_after=2025-06-06T02:27:07.125713+00:00
+[2025-06-05T23:27:07.223-0300] {processor.py:179} INFO - Processing /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.142 seconds
+[2025-06-05T23:28:08.588-0300] {processor.py:157} INFO - Started process (PID=37170) to work on /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-05T23:28:08.590-0300] {processor.py:826} INFO - Processing file /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-06-05T23:28:08.592-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:28:08.591-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-05T23:28:08.604-0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-06-05T23:28:08.618-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:28:08.618-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-05T23:28:08.627-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:28:08.627-0300] {dag.py:3504} INFO - Setting next_dagrun for example_skip_dag to 2025-06-05T02:28:08.627758+00:00, run_after=2025-06-06T02:28:08.627758+00:00
+[2025-06-05T23:28:08.752-0300] {processor.py:179} INFO - Processing /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.169 seconds

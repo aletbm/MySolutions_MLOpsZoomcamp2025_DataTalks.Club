@@ -1,0 +1,15 @@
+[2025-06-05T23:25:49.881-0300] {processor.py:157} INFO - Started process (PID=36559) to work on /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-06-05T23:25:49.883-0300] {processor.py:826} INFO - Processing file /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-06-05T23:25:49.884-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:25:49.884-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-06-05T23:25:49.888-0300] {processor.py:838} WARNING - No viable dags retrieved from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-06-05T23:25:49.893-0300] {processor.py:179} INFO - Processing /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.015 seconds
+[2025-06-05T23:27:01.406-0300] {processor.py:157} INFO - Started process (PID=36769) to work on /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-06-05T23:27:01.419-0300] {processor.py:826} INFO - Processing file /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-06-05T23:27:01.421-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:27:01.420-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-06-05T23:27:01.424-0300] {processor.py:838} WARNING - No viable dags retrieved from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-06-05T23:27:01.432-0300] {processor.py:179} INFO - Processing /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.029 seconds
+[2025-06-05T23:27:58.284-0300] {processor.py:157} INFO - Started process (PID=37154) to work on /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-06-05T23:27:58.299-0300] {processor.py:826} INFO - Processing file /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-06-05T23:27:58.301-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:27:58.301-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-06-05T23:27:58.306-0300] {processor.py:838} WARNING - No viable dags retrieved from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-06-05T23:27:58.315-0300] {processor.py:179} INFO - Processing /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.036 seconds

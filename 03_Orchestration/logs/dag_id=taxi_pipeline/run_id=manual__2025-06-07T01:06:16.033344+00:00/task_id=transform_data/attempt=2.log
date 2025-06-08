@@ -1,0 +1,35 @@
+[2025-06-06T22:12:33.831-0300] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: taxi_pipeline.transform_data manual__2025-06-07T01:06:16.033344+00:00 [queued]>
+[2025-06-06T22:12:33.834-0300] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: taxi_pipeline.transform_data manual__2025-06-07T01:06:16.033344+00:00 [queued]>
+[2025-06-06T22:12:33.834-0300] {taskinstance.py:1308} INFO - Starting attempt 2 of 2
+[2025-06-06T22:12:33.938-0300] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): transform_data> on 2025-06-07 01:06:16.033344+00:00
+[2025-06-06T22:12:33.944-0300] {standard_task_runner.py:57} INFO - Started process 56599 to run task
+[2025-06-06T22:12:33.945-0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'taxi_pipeline', 'transform_data', 'manual__2025-06-07T01:06:16.033344+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/taxi_dag.py', '--cfg-path', '/tmp/tmpa06f7kez']
+[2025-06-06T22:12:33.945-0300] {standard_task_runner.py:85} INFO - Job 28: Subtask transform_data
+[2025-06-06T22:12:34.060-0300] {task_command.py:410} INFO - Running <TaskInstance: taxi_pipeline.transform_data manual__2025-06-07T01:06:16.033344+00:00 [running]> on host alex-MS-7D46
+[2025-06-06T22:12:34.189-0300] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='taxi_pipeline' AIRFLOW_CTX_TASK_ID='transform_data' AIRFLOW_CTX_EXECUTION_DATE='2025-06-07T01:06:16.033344+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-07T01:06:16.033344+00:00'
+[2025-06-06T22:12:34.190-0300] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/alex/mlopszoomcamp/lib/python3.10/site-packages/pandas/io/sql.py", line 2664, in execute
+    cur.execute(sql, *args)
+sqlite3.OperationalError: no such table: yellow_march23
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/alex/Homeworks/HW3/dags/taxi_dag.py", line 48, in transform_data
+    df = pd.read_sql('SELECT * FROM yellow_march23', con=conn)
+  File "/home/alex/mlopszoomcamp/lib/python3.10/site-packages/pandas/io/sql.py", line 708, in read_sql
+    return pandas_sql.read_query(
+  File "/home/alex/mlopszoomcamp/lib/python3.10/site-packages/pandas/io/sql.py", line 2728, in read_query
+    cursor = self.execute(sql, params)
+  File "/home/alex/mlopszoomcamp/lib/python3.10/site-packages/pandas/io/sql.py", line 2676, in execute
+    raise ex from exc
+pandas.errors.DatabaseError: Execution failed on sql 'SELECT * FROM yellow_march23': no such table: yellow_march23
+[2025-06-06T22:12:34.192-0300] {taskinstance.py:1345} INFO - Marking task as FAILED. dag_id=taxi_pipeline, task_id=transform_data, execution_date=20250607T010616, start_date=20250607T011233, end_date=20250607T011234
+[2025-06-06T22:12:34.296-0300] {standard_task_runner.py:104} ERROR - Failed to execute job 28 for task transform_data (Execution failed on sql 'SELECT * FROM yellow_march23': no such table: yellow_march23; 56599)
+[2025-06-06T22:12:34.318-0300] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2025-06-06T22:12:34.343-0300] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,15 @@
+[2025-06-05T23:25:44.734-0300] {processor.py:157} INFO - Started process (PID=36549) to work on /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2025-06-05T23:25:44.735-0300] {processor.py:826} INFO - Processing file /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2025-06-05T23:25:44.737-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:25:44.736-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2025-06-05T23:25:44.740-0300] {processor.py:838} WARNING - No viable dags retrieved from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2025-06-05T23:25:44.747-0300] {processor.py:179} INFO - Processing /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.018 seconds
+[2025-06-05T23:26:56.828-0300] {processor.py:157} INFO - Started process (PID=36763) to work on /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2025-06-05T23:26:56.838-0300] {processor.py:826} INFO - Processing file /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2025-06-05T23:26:56.840-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:26:56.839-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2025-06-05T23:26:56.844-0300] {processor.py:838} WARNING - No viable dags retrieved from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2025-06-05T23:26:56.967-0300] {processor.py:179} INFO - Processing /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.143 seconds
+[2025-06-05T23:27:53.684-0300] {processor.py:157} INFO - Started process (PID=37129) to work on /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2025-06-05T23:27:53.702-0300] {processor.py:826} INFO - Processing file /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2025-06-05T23:27:53.703-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:27:53.703-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2025-06-05T23:27:53.706-0300] {processor.py:838} WARNING - No viable dags retrieved from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2025-06-05T23:27:53.713-0300] {processor.py:179} INFO - Processing /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.031 seconds

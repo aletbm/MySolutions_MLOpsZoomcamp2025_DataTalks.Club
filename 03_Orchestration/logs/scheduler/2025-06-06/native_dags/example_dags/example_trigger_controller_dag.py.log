@@ -1,0 +1,25 @@
+[2025-06-05T23:25:51.081-0300] {processor.py:157} INFO - Started process (PID=36569) to work on /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2025-06-05T23:25:51.081-0300] {processor.py:826} INFO - Processing file /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2025-06-05T23:25:51.082-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:25:51.082-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2025-06-05T23:25:51.088-0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2025-06-05T23:25:51.308-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:25:51.307-0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_trigger_controller_dag
+[2025-06-05T23:25:51.390-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:25:51.390-0300] {manager.py:504} INFO - Created Permission View: can read on DAG:example_trigger_controller_dag
+[2025-06-05T23:25:51.483-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:25:51.483-0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_trigger_controller_dag
+[2025-06-05T23:25:51.490-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:25:51.490-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-05T23:25:51.496-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:25:51.496-0300] {dag.py:2763} INFO - Creating ORM DAG for example_trigger_controller_dag
+[2025-06-05T23:25:51.502-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:25:51.502-0300] {dag.py:3504} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2025-06-05T23:25:51.632-0300] {processor.py:179} INFO - Processing /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.556 seconds
+[2025-06-05T23:27:02.547-0300] {processor.py:157} INFO - Started process (PID=36770) to work on /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2025-06-05T23:27:02.548-0300] {processor.py:826} INFO - Processing file /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2025-06-05T23:27:02.548-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:27:02.548-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2025-06-05T23:27:02.551-0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2025-06-05T23:27:02.559-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:27:02.559-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-05T23:27:02.568-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:27:02.568-0300] {dag.py:3504} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2025-06-05T23:27:02.669-0300] {processor.py:179} INFO - Processing /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.125 seconds
+[2025-06-05T23:28:00.307-0300] {processor.py:157} INFO - Started process (PID=37158) to work on /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2025-06-05T23:28:00.341-0300] {processor.py:826} INFO - Processing file /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2025-06-05T23:28:00.343-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:28:00.342-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2025-06-05T23:28:00.350-0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2025-06-05T23:28:01.068-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:28:01.067-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-05T23:28:03.179-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:28:03.178-0300] {dag.py:3504} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2025-06-05T23:28:03.360-0300] {processor.py:179} INFO - Processing /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 3.058 seconds

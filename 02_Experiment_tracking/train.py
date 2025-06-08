@@ -29,9 +29,9 @@ def run_train(data_path: str):
 
     with mlflow.start_run():
         mlflow.set_tag("developer", "alex")
-        mlflow.log_param("train_data_path", "./data/green_tripdata_2023-01.parquet")
-        mlflow.log_param("valid_data_path", "./data/green_tripdata_2023-02.parquet")
-        mlflow.log_param("test_data_path", "./data/green_tripdata_2023-03.parquet")
+        mlflow.log_param("train_data_path", "./data/yellow_tripdata_2023-01.parquet")
+        mlflow.log_param("valid_data_path", "./data/yellow_tripdata_2023-02.parquet")
+        mlflow.log_param("test_data_path", "./data/yellow_tripdata_2023-03.parquet")
 
         rf = RandomForestRegressor(max_depth=10, random_state=0)
         rf.fit(X_train, y_train)

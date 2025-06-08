@@ -1,0 +1,25 @@
+[2025-06-05T23:26:17.129-0300] {processor.py:157} INFO - Started process (PID=36693) to work on /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-06-05T23:26:17.130-0300] {processor.py:826} INFO - Processing file /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-06-05T23:26:17.130-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:26:17.130-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-06-05T23:26:17.133-0300] {processor.py:836} INFO - DAG(s) dict_keys(['latest_only_with_trigger']) retrieved from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-06-05T23:26:17.391-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:26:17.390-0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:latest_only_with_trigger
+[2025-06-05T23:26:17.499-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:26:17.499-0300] {manager.py:504} INFO - Created Permission View: can read on DAG:latest_only_with_trigger
+[2025-06-05T23:26:17.616-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:26:17.615-0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:latest_only_with_trigger
+[2025-06-05T23:26:17.624-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:26:17.624-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-05T23:26:17.629-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:26:17.629-0300] {dag.py:2763} INFO - Creating ORM DAG for latest_only_with_trigger
+[2025-06-05T23:26:17.634-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:26:17.633-0300] {dag.py:3504} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-06-05T22:26:17.633829+00:00, run_after=2025-06-06T02:26:17.633829+00:00
+[2025-06-05T23:26:17.792-0300] {processor.py:179} INFO - Processing /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.665 seconds
+[2025-06-05T23:27:25.111-0300] {processor.py:157} INFO - Started process (PID=36806) to work on /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-06-05T23:27:25.126-0300] {processor.py:826} INFO - Processing file /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-06-05T23:27:25.128-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:27:25.128-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-06-05T23:27:25.146-0300] {processor.py:836} INFO - DAG(s) dict_keys(['latest_only_with_trigger']) retrieved from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-06-05T23:27:25.170-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:27:25.170-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-05T23:27:25.182-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:27:25.182-0300] {dag.py:3504} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-06-05T22:27:25.182247+00:00, run_after=2025-06-06T02:27:25.182247+00:00
+[2025-06-05T23:27:25.326-0300] {processor.py:179} INFO - Processing /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.222 seconds
+[2025-06-05T23:28:29.677-0300] {processor.py:157} INFO - Started process (PID=37262) to work on /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-06-05T23:28:29.679-0300] {processor.py:826} INFO - Processing file /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-06-05T23:28:29.679-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:28:29.679-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-06-05T23:28:29.683-0300] {processor.py:836} INFO - DAG(s) dict_keys(['latest_only_with_trigger']) retrieved from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-06-05T23:28:29.691-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:28:29.691-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-05T23:28:29.703-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:28:29.703-0300] {dag.py:3504} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-06-05T22:28:29.703577+00:00, run_after=2025-06-06T02:28:29.703577+00:00
+[2025-06-05T23:28:29.798-0300] {processor.py:179} INFO - Processing /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.123 seconds

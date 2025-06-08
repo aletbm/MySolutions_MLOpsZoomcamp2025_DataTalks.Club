@@ -1,0 +1,14 @@
+[2025-06-07T21:36:47.022-0300] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: taxi_pipeline.transform_data scheduled__2025-06-07T00:34:53.303328+00:00 [queued]>
+[2025-06-07T21:36:47.026-0300] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: taxi_pipeline.transform_data scheduled__2025-06-07T00:34:53.303328+00:00 [queued]>
+[2025-06-07T21:36:47.026-0300] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-06-07T21:36:47.140-0300] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): transform_data> on 2025-06-07 00:34:53.303328+00:00
+[2025-06-07T21:36:47.147-0300] {standard_task_runner.py:57} INFO - Started process 26654 to run task
+[2025-06-07T21:36:47.149-0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'taxi_pipeline', 'transform_data', 'scheduled__2025-06-07T00:34:53.303328+00:00', '--job-id', '77', '--raw', '--subdir', 'DAGS_FOLDER/taxi_dag.py', '--cfg-path', '/tmp/tmpkl90z4k_']
+[2025-06-07T21:36:47.149-0300] {standard_task_runner.py:85} INFO - Job 77: Subtask transform_data
+[2025-06-07T21:36:47.271-0300] {task_command.py:410} INFO - Running <TaskInstance: taxi_pipeline.transform_data scheduled__2025-06-07T00:34:53.303328+00:00 [running]> on host alex-MS-7D46
+[2025-06-07T21:36:47.505-0300] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='taxi_pipeline' AIRFLOW_CTX_TASK_ID='transform_data' AIRFLOW_CTX_EXECUTION_DATE='2025-06-07T00:34:53.303328+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-06-07T00:34:53.303328+00:00'
+[2025-06-07T21:37:00.139-0300] {logging_mixin.py:150} INFO - The dataset contain 3316216 rows and 20 columns.
+[2025-06-07T21:37:44.717-0300] {python.py:183} INFO - Done. Returned value was: None
+[2025-06-07T21:37:44.826-0300] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=taxi_pipeline, task_id=transform_data, execution_date=20250607T003453, start_date=20250608T003647, end_date=20250608T003744
+[2025-06-07T21:37:44.994-0300] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-06-07T21:37:45.005-0300] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

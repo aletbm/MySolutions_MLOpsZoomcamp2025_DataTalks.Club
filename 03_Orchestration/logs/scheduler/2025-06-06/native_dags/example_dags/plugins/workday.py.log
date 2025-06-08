@@ -1,0 +1,15 @@
+[2025-06-05T23:25:43.367-0300] {processor.py:157} INFO - Started process (PID=36541) to work on /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2025-06-05T23:25:43.368-0300] {processor.py:826} INFO - Processing file /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-06-05T23:25:43.368-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:25:43.368-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2025-06-05T23:25:43.563-0300] {processor.py:838} WARNING - No viable dags retrieved from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2025-06-05T23:25:43.568-0300] {processor.py:179} INFO - Processing /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.202 seconds
+[2025-06-05T23:26:55.580-0300] {processor.py:157} INFO - Started process (PID=36755) to work on /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2025-06-05T23:26:55.588-0300] {processor.py:826} INFO - Processing file /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-06-05T23:26:55.589-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:26:55.589-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2025-06-05T23:26:55.748-0300] {processor.py:838} WARNING - No viable dags retrieved from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2025-06-05T23:26:55.753-0300] {processor.py:179} INFO - Processing /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.174 seconds
+[2025-06-05T23:27:52.199-0300] {processor.py:157} INFO - Started process (PID=37121) to work on /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2025-06-05T23:27:52.218-0300] {processor.py:826} INFO - Processing file /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-06-05T23:27:52.218-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:27:52.218-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2025-06-05T23:27:52.406-0300] {processor.py:838} WARNING - No viable dags retrieved from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2025-06-05T23:27:52.435-0300] {processor.py:179} INFO - Processing /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.241 seconds

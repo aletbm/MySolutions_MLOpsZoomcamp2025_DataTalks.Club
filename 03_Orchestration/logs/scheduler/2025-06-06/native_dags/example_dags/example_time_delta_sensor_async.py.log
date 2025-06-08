@@ -1,0 +1,25 @@
+[2025-06-05T23:26:10.173-0300] {processor.py:157} INFO - Started process (PID=36680) to work on /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-06-05T23:26:10.174-0300] {processor.py:826} INFO - Processing file /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-06-05T23:26:10.175-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:26:10.175-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-06-05T23:26:10.180-0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_time_delta_sensor_async']) retrieved from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-06-05T23:26:10.424-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:26:10.423-0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_time_delta_sensor_async
+[2025-06-05T23:26:10.498-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:26:10.497-0300] {manager.py:504} INFO - Created Permission View: can read on DAG:example_time_delta_sensor_async
+[2025-06-05T23:26:10.582-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:26:10.581-0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_time_delta_sensor_async
+[2025-06-05T23:26:10.594-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:26:10.594-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-05T23:26:10.600-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:26:10.600-0300] {dag.py:2763} INFO - Creating ORM DAG for example_time_delta_sensor_async
+[2025-06-05T23:26:10.605-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:26:10.605-0300] {dag.py:3504} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-06-05T23:26:10.730-0300] {processor.py:179} INFO - Processing /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.562 seconds
+[2025-06-05T23:27:14.848-0300] {processor.py:157} INFO - Started process (PID=36787) to work on /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-06-05T23:27:14.867-0300] {processor.py:826} INFO - Processing file /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-06-05T23:27:14.869-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:27:14.868-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-06-05T23:27:14.878-0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_time_delta_sensor_async']) retrieved from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-06-05T23:27:14.891-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:27:14.891-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-05T23:27:14.901-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:27:14.901-0300] {dag.py:3504} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-06-05T23:27:14.992-0300] {processor.py:179} INFO - Processing /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.150 seconds
+[2025-06-05T23:28:15.288-0300] {processor.py:157} INFO - Started process (PID=37182) to work on /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-06-05T23:28:15.290-0300] {processor.py:826} INFO - Processing file /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2025-06-05T23:28:15.291-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:28:15.291-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-06-05T23:28:15.299-0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_time_delta_sensor_async']) retrieved from /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2025-06-05T23:28:15.312-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:28:15.312-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-06-05T23:28:15.322-0300] {logging_mixin.py:150} INFO - [2025-06-05T23:28:15.321-0300] {dag.py:3504} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2025-06-05T23:28:15.437-0300] {processor.py:179} INFO - Processing /home/alex/mlopszoomcamp/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.155 seconds
