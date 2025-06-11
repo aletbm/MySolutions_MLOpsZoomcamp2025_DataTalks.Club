@@ -1,5 +1,7 @@
 # 🚕 Taxi Pipeline with Prefect 3 and MLflow 2
 
+![Pipeline_run](./src/run.jfif)
+
 This project demonstrates a data pipeline using [Prefect 3.4.5](https://docs.prefect.io/) for orchestration and [MLflow 2.22.1](https://mlflow.org/) for experiment tracking, all built with Python 3.10.
 
 ---
