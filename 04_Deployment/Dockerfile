@@ -1,5 +1,6 @@
 FROM agrigorev/zoomcamp-model:mlops-2024-3.10.13-slim
 
+RUN apt-get update && apt-get install -y gcc && apt-get clean && rm -rf /var/lib/apt/lists/*
 RUN pip install -U pip
 RUN pip install pipenv
 
