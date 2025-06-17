@@ -98,6 +98,6 @@ def taxi_pipeline(project_id, bucket_name, year, month):
 if __name__ == '__main__':
     year = sys.argv[1]
     month = sys.argv[2]
-    project_id="plucky-haven-463121-j1"
-    bucket_name='my_taxi_bucket'
+    project_id="your_project_id"
+    bucket_name='your_bucket_name'
     taxi_pipeline(project_id, bucket_name, year, month)
