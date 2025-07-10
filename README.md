@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # 🛠️ MLOps Zoomcamp 2025 – Assignment Solutions
 
 This repository contains the **solutions to the exercises and homework assignments** for each module of the [MLOps Zoomcamp](https://github.com/DataTalksClub/mlops-zoomcamp), a free 9-week course on productionizing machine learning services.
