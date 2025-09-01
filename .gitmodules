@@ -1,3 +1,9 @@
 [submodule "Attemp1"]
 	path = Attemp1
 	url = https://github.com/aletbm/Intrusion_Detection_CIC-IDS2017_Attemp1.git
+[submodule "Attempt2"]
+	path = Attempt2
+	url = https://github.com/aletbm/Estimation_Obesity_Levels_E2E_MLPipeline.git
+[submodule "Attempt3"]
+	path = Attempt3
+	url = https://github.com/aletbm/Cardiovascular-Diseases-Prediction_E2E_MLPipeline
