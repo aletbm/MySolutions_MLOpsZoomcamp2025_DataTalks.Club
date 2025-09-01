@@ -7,3 +7,6 @@
 [submodule "Attempt3"]
 	path = Attempt3
 	url = https://github.com/aletbm/Cardiovascular-Diseases-Prediction_E2E_MLPipeline
+[submodule "Attempt1"]
+	path = Attempt1
+	url = https://github.com/aletbm/Intrusion_Detection_E2E_MLPipeline.git
